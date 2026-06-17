@@ -1,7 +1,7 @@
 # Grape-centromere-analysis
-—————————————————————————————————————————————————————————————————————————————
+#
 Script List (Main Purpose)
-—————————————————————————————————————————————————————————————————————————————
+#
 
 chr_mafft.py                           (Monomer/Subunit Fine Mapping)
 1-samples_satellite.py                 (Subunit → Monomer → HOR → Visualization)
@@ -23,9 +23,9 @@ chr2LIRinfo.py                         (LIR Satellite Analysis)
 
 
 
-—————————————————————————————————————————————————————————————————————————————
+#
 Script Introduction
-—————————————————————————————————————————————————————————————————————————————
+#
 chr_mafft.py
 This script performs precise identification and characterization of satellite repeat monomers using MAFFT-based alignment against a reference monomer template. It is specifically designed for short monomers (<50 bp) where traditional BLAST-based methods lack precision.
 
@@ -68,9 +68,9 @@ This script analyzes the distribution, classification, and evolutionary timing o
 
 
 
-—————————————————————————————————————————————————————————————————————————————
+#
 Note：Recommended Working Directory Structure
-—————————————————————————————————————————————————————————————————————————————
+#
 ./input/sample1/chr_mafft.py | sample1.fa
 ./input/sample2/chr_mafft.py | sample2.fa
 ./input/sampleX/chr_mafft.py | sampleX.fa
